@@ -1,9 +1,63 @@
 # CIM
 Sistema web para el control remoto de un dispositivo automatizado de la Facultad de Ingeniería UNMdP.
 
+PROBLEMA A RESOLVER
+En la actualidad, la Facultad de Ingeniería dispone de un sistema automatizado (CIM) que ha
+quedado inactivo debido a la complejidad de su implementación en cursos presenciales.
+Este sistema simula un proceso productivo con varios "módulos de trabajo" representados mediante
+componentes reales (electrónicos, mecánicos y neumáticos) que realizan funciones específicas.
+La salida de una actividad (realizada en un módulo) sirve como entrada de la actividad siguiente, y
+se programa por medio de una cadena de eventos. Los estudiantes pueden llevar a cabo prácticas
+sobre estos módulos a través del control de un PLC (Programmable Logic Controller) que se conecta
+a un software instalado en una computadora dedicada que actúa como servidor, permitiendo la
+creación y ejecución de rutinas programadas.
+Con el objetivo de aprovechar al máximo este sistema automatizado, se buscan alternativas que
+permitan reutilizarlo a través del Departamento de Laboratorios Remotos.
+Por consiguiente, es fundamental desarrollar una herramienta que habilite a los estudiantes realizar
+prácticas mediante el control remoto del servidor que se comunica con el sistema automatizado. Esta
+herramienta también facilitará la creación de documentación audiovisual y escrita, simplificando el
+aprendizaje para aquellos interesados en esta área.
 
-1. Introducción
-El Sistema de Control Remoto de Dispositivos Automatizados (SCRDA) es una solución web desarrollada para el Departamento de Laboratorios Remotos de la Facultad de Ingeniería de la UNMdP. Este sistema permite la gestión remota de un servidor que controla un sistema industrial automatizado, facilitando prácticas educativas para estudiantes y documentando los procesos correspondientes.
+1. OBJETIVO DEL PROYECTO
+Desarrollo de un sistema web que funcione en la intranet de la Facultad de Ingeniería, y permita:
+
+➔ A los estudiantes, gestionar de manera remota un servidor encargado de controlar el sistema
+automatizado (CIM), y poder llevar a cabo prácticas en el mismo.
+
+➔ A los alumnos, poseer una cuenta propia que les permita acceder a los recursos compartidos.
+
+➔ Poseer soporte multimedia (audio y video) para visualizar en tiempo real las actividades en el
+CIM (Computer Integrated Manufacturing).
+
+➔ La utilización de herramientas de apoyo para el encargado presente en el departamento y
+para los estudiantes.
+
+➔ Reservar turnos para coordinar el uso del sistema automatizado.
+
+➔ El almacenamiento de archivos multimedia durante un período de tiempo establecido, para
+descargar contenido e información estadística de las pruebas realizadas.
+
+
+PRODUCTO ESPERADO
+Se pretende desarrollar un sistema web que permita gestionar el sistema automatizado de manera
+remota y recopilar información relevante sobre las prácticas realizadas. El mismo contará con un
+control de acceso según el rol, ya sea alumno o docente, e incorporará los siguientes módulos:
+
+➔ Gestión de turnos para acceder al sistema automatizado:
+A través del acceso de los usuarios a un calendario donde permita elegir el día y el horario para
+realizar la práctica.
+
+➔ Administración del servidor que controla al sistema automatizado:
+Iniciada la sesión, se permitirá el control de la aplicación que manipula al sistema de manera remota.
+
+➔ Gestión de recursos multimedia:
+Permitiendo acceder por un lapso de tiempo limitado a los datos audiovisuales correspondientes a la
+sesión ocurrida.
+
+➔ Soporte en tiempo real:
+Mediante una función de mensajería directa, facilitando la comunicación con el encargado
+responsable de supervisar el sistema automatizado durante las prácticas.
+
 
 2. Requerimientos Funcionales
 2.1 Gestión de Sesión
@@ -25,6 +79,7 @@ Reserva de Turnos: Los usuarios deben poder reservar turnos en un calendario par
 
   2.6 Almacenamiento de Archivos
 Almacenamiento Temporal: El sistema debe permitir el almacenamiento de archivos multimedia durante un período de tiempo definido para que los usuarios puedan acceder a ellos y descargar contenido relevante, así como información estadística de las prácticas realizadas.
+
 
 Requerimientos No Funcionales
 1. Seguridad
