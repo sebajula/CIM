@@ -106,4 +106,3 @@ Estándares Abiertos: Utilizar estándares y protocolos abiertos para facilitar 
 6. Tecnología
 Tecnologías Web Modernas: Utilizar tecnologías web modernas y frameworks de desarrollo que permitan el desarrollo rápido, la escalabilidad y el mantenimiento sostenible del sistema. (Sin restricciones)
 WebSockets y WebRTC: Implementar WebSockets para una comunicación bidireccional en tiempo real entre el navegador y el servidor, y WebRTC para la transmisión de datos multimedia en tiempo real. (Recomendacion)
-Seguimiento de Tendencias: Mantenerse al tanto de las últimas tendencias y avances en tecnología web para asegurar que el sistema esté actualizado y pueda aprovechar nuevas oportunidades y mejoras.
