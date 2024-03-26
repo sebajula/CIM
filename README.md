@@ -8,12 +8,10 @@ El Sistema de Control Remoto de Dispositivos Automatizados (SCRDA) es una soluci
 2. Requerimientos Funcionales
 2.1 Gestión de Sesión
 Inicio de Sesión: Los usuarios deben poder iniciar sesión en el sistema utilizando credenciales proporcionadas por la facultad.
-
 Gestión de Cuentas: Los alumnos deben tener cuentas individuales que les permitan acceder a los recursos compartidos, mientras que los docentes deben tener privilegios adicionales para supervisar y administrar las actividades.
 
 2.2 Control Remoto del Servidor
 Acceso Remoto: Los estudiantes deben poder acceder al servidor de control del sistema automatizado desde cualquier ubicación utilizando un navegador web estándar.
-
 Interfaz de Control: Se debe proporcionar una interfaz intuitiva que permita a los usuarios controlar el servidor y ejecutar prácticas en el sistema automatizado.
 
 2.3 Soporte Multimedia
